@@ -1,36 +1,24 @@
-import pygame
-
-# this code takes your name as input
-
-x = 3
-print(x)
-
-if x < 10:
-  print("x is lesser than 10")
-elif x > 10:
-  print("x is greater than 10")
-else:
-  print("x is 10")
-
-
-my_list = [1, 2, 3, 4, 5]
 string_list = ["food is good","water","air"]
 
-print(my_list)
 print(string_list)
 
 for i in string_list:
   print(i)
 
-x = 3
-y = x + 4
-z = (x+3)*(y+4)
+my_list = [1, 2, 3, 4, 5]
+print(len(my_list))
 
-a = 2**2
+new_list = my_list.copy()
 
-x = x + 1
-x += 1
-x -= 1
-x *= 1
+print(string_list[2])
 
-print(a)
+my_list.remove(2)
+string_list.remove("water")
+print(string_list)
+
+second_list = [6,7,8]
+
+third_list = my_list + second_list
+another_list = string_list + third_list
+
+print(another_list)
