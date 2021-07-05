@@ -1,5 +1,28 @@
 import pygame
 
-print("Hello World")
+# this code takes your name as input
 
-print("Python")
+x = 3
+print(x)
+
+if x < 10:
+  print("x is lesser than 10")
+elif x > 10:
+  print("x is greater than 10")
+else:
+  print("x is 10")
+
+
+my_list = [1, 2, 3, 4, 5]
+string_list = ["food is good","water","air"]
+
+print(my_list)
+print(string_list)
+
+for i in string_list:
+  print(i)
+
+
+
+
+
